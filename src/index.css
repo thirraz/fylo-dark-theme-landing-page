@@ -2,7 +2,3 @@
 @tailwind components;
 @tailwind variants;
 @tailwind utilities;
-
-* {
-	font-family: "Open Sans";
-}

@@ -6,7 +6,11 @@ import phone from "../assets/images/icon-phone.svg";
 export const Footer = () => {
 	return (
 		<footer className="h-auto flex flex-col bg-slate-900 px-7">
-			<img className="w-36 mt-48" src={logo} alt="fylo's logo icon" />
+			<img
+				className="w-48 mt-48 mb-7"
+				src={logo}
+				alt="fylo's logo icon"
+			/>
 			<ul className="flex flex-col h-auto text-white">
 				<li className="flex mt-5">
 					<img
@@ -36,11 +40,16 @@ export const Footer = () => {
 				</li>
 			</ul>
 
-			<div className="mt-24 text-slate-400">
+			<div className="mt-24 text-slate-300">
 				<p className="mb-5">About Us</p>
 				<p className="mb-5">Jobs</p>
 				<p className="mb-5">Press</p>
 				<p className="mb-5">Blog</p>
+			</div>
+			<div className="mt-12 text-slate-300">
+				<p className="mb-5">Contact Us</p>
+				<p className="mb-5">Terms</p>
+				<p className="mb-5">Privacy</p>
 			</div>
 		</footer>
 	);

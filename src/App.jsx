@@ -1,25 +1,23 @@
-import { useState, useContext } from "react";
+import { useState } from "react";
 import "./App.css";
-
-//context
-import { ThemeContext } from "./contexts/ThemeContext";
 
 //components
 import { Navbar } from "./components/Navbar";
+import { Main } from "./components/Main";
 import { Footer } from "./components/Footer";
+import { Benefits } from "./components/Benefits";
+import { StayProductive } from "./components/StayProductive";
 
 function App() {
 	const [count, setCount] = useState(0);
-	const { dark, setDark } = useContext(ThemeContext);
 
 	return (
-		<div
-			className={`${
-				dark ? "bg-slate-800" : "bg-blue-300"
-			} w-screen h-screen`}
-		>
+		<div className="bg-slate-800 w-auto h-auto overflow-x-hidden">
 			<Navbar />
-			<Footer />
+			<Main />
+			<Benefits />
+			<StayProductive />
+			{/* <Footer /> */}
 		</div>
 	);
 }
