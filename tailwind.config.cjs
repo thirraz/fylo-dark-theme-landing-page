@@ -22,6 +22,9 @@ module.exports = {
 				"90pc": "90%",
 				"60pc": "80%",
 			},
+			fontSize: {
+				"3rem": "3rem",
+			},
 		},
 		plugins: [],
 	},

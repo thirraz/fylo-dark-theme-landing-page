@@ -6,11 +6,11 @@ export const Main = () => {
 		<main className="w-screen h-auto md:h-auto cover flex justify-center items-center relative overflow-x-hidden">
 			<div className="flex flex-col w-full h-auto justify-center items-center">
 				<img className="max-w-[80%] z-20" src={imageIntro} alt="" />
-				<h1 className="font-Raleway text-2xl text-white mt-8 z-20 w-[70%] font-bold text-center text-[2rem]">
+				<h1 className=" font-Raleway text-2xl text-white mt-8 z-20 px-28 lg:w-[50%] font-bold text-center text-[2rem]">
 					All your files in one secure location, accessible
 					anywhere
 				</h1>
-				<p className=" w-full text-white text-center z-20 font-OpenSans mt-8 px-16">
+				<p className=" w-full  px-8 lg:px-[34rem] text-white text-center z-20 font-OpenSans mt-8 ">
 					Fylo stores all your most important files in one secure
 					location. Access them wherever you need, share and
 					collaborate with friends family, and co-workers.
