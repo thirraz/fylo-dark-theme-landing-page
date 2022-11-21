@@ -5,9 +5,9 @@ import arrow from "../assets/images/icon-arrow.svg";
 
 export const StayProductive = () => {
 	return (
-		<div className="w-screen h-auto bg-veryDarkBlue flex flex-wrap lg:flex-nowrap items-center justify-center pb-20 gap-x-10">
+		<div className="w-screen h-auto bg-veryDarkBlue flex flex-wrap lg:flex-nowrap items-center justify-center pt-16 pb-20 gap-x-10">
 			<img
-				className="lg-96 lg:w-[35rem]"
+				className=" lg:w-[35rem]"
 				src={productiveIllustration}
 				alt="illustration to represent the Fylo's productive"
 			/>

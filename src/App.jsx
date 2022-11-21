@@ -14,7 +14,7 @@ function App() {
 			<Benefits />
 			<StayProductive />
 			<OpinionCards />
-			{/* <Footer /> */}
+			<Footer />
 		</div>
 	);
 }

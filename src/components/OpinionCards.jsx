@@ -7,7 +7,7 @@ import bgQuote from "../assets/images/bg-quotes.png";
 
 export const OpinionCards = () => {
 	return (
-		<div className="relative w-screen px-4 flex flex-wrap justify-center items-center gap-x-4 gap-y-10 pt-20 pb-80 bg-veryDarkBlue">
+		<div className="relative w-screen px-4 flex flex-wrap justify-center items-center gap-x-9 gap-y-10 pt-20 pb-80 bg-veryDarkBlue">
 			<img
 				className="w-10 absolute sm:top-14 left-52 lg:left-48"
 				src={bgQuote}

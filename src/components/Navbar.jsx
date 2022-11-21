@@ -7,7 +7,7 @@ import { faMoon } from "@fortawesome/free-solid-svg-icons";
 export const Navbar = () => {
 	return (
 		<>
-			<header className="font-Raleway h-24 px-6 flex items-center justify-around">
+			<header className="font-Raleway h-24 px-28 flex items-center justify-between">
 				<img
 					className="w-24 fill-black"
 					src={logo}

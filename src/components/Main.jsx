@@ -10,7 +10,7 @@ export const Main = () => {
 					All your files in one secure location, accessible
 					anywhere
 				</h1>
-				<p className=" w-full  px-8 lg:px-[34rem] text-white text-center z-20 font-OpenSans mt-8 ">
+				<p className=" w-[85%]  lg:px-[27rem] text-white text-center z-20 font-OpenSans mt-8 ">
 					Fylo stores all your most important files in one secure
 					location. Access them wherever you need, share and
 					collaborate with friends family, and co-workers.
