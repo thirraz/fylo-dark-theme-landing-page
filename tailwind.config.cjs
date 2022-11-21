@@ -13,6 +13,7 @@ module.exports = {
 			},
 			colors: {
 				veryDarkBlue: "#181F2B",
+				grayBlue: "#21293C",
 			},
 			fontFamily: {
 				OpenSans: '"Open Sans", sans-serif',
