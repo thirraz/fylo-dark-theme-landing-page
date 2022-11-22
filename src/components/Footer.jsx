@@ -10,7 +10,7 @@ export const Footer = () => {
 				<div className="w-full mb-9 bg-slate-900">
 					<img src={logo} alt="Fylo's icon logo" />
 				</div>
-				<div className=" flex flex-col lg:w-[40%] mr-20">
+				<div className=" flex pr-32 lg:w-[30%] mr-20">
 					<img
 						className="w-4 h-4 mr-5"
 						src={location}
@@ -22,7 +22,7 @@ export const Footer = () => {
 						ut labore et dolore magna aliqua
 					</p>
 				</div>
-				<div className="flex mb-9 border-2 lg:w-[20%]">
+				<div className="flex mb-9 lg:w-[20%]">
 					<ul className="text-white w-screen ">
 						<li className="flex items-baseline">
 							<img
@@ -42,7 +42,7 @@ export const Footer = () => {
 						</li>
 					</ul>
 				</div>
-				<div className="border-2 text-slate-300 mb-14 md:w-[10%] lg:w-[10%]">
+				<div className="w  text-slate-300 mb-14 md:w-[95%] lg:w-[10%]">
 					<p className="mb-5">About Us</p>
 					<p className="mb-5">Jobs</p>
 					<p className="mb-5">Press</p>

@@ -16,7 +16,7 @@ export const Main = () => {
 					collaborate with friends family, and co-workers.
 				</p>
 
-				<button className="mt-20 text-white font-bold z-20 rounded-full px-20 py-4 bg-gradient-to-r from-cyan-500 to-blue-500">
+				<button className="mt-20 text-white font-bold z-20 rounded-full px-20 py-4 bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-300 hover:to-cyan-300">
 					Get Started
 				</button>
 			</div>

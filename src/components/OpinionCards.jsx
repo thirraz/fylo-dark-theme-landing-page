@@ -4,6 +4,7 @@ import p2 from "../assets/images/profile-2.jpg";
 import p3 from "../assets/images/profile-3.jpg";
 
 import bgQuote from "../assets/images/bg-quotes.png";
+import { Cta } from "./Cta";
 
 export const OpinionCards = () => {
 	return (
@@ -37,6 +38,8 @@ export const OpinionCards = () => {
 				name="Satish Patel"
 				role="Founder & CEO, Huddle"
 			/>
+
+			<Cta />
 		</div>
 	);
 };
