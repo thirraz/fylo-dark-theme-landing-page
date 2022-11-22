@@ -44,7 +44,7 @@ export const Footer = () => {
 							/>
 							+1-543-123-4567
 						</li>
-						<li className="flex items-baseline">
+						<li className="flex items-baseline mt-3">
 							<img
 								className="w-4 h-4 mr-5"
 								src={email}
