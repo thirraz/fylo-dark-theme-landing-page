@@ -1,3 +1,11 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import {
+	faFacebook,
+	faTwitter,
+	faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
+
 import logo from "../assets/images/logo.svg";
 import email from "../assets/images/icon-email.svg";
 import location from "../assets/images/icon-location.svg";
@@ -6,7 +14,7 @@ import phone from "../assets/images/icon-phone.svg";
 export const Footer = () => {
 	return (
 		<>
-			<footer className="w-screen h-auto pt-80 pl-8 flex flex-wrap bg-slate-900 ">
+			<footer className="w-screen h-auto pt-80 pb-52 pl-8 flex flex-wrap bg-slate-900 ">
 				<div className="w-full mb-9 bg-slate-900">
 					<img src={logo} alt="Fylo's icon logo" />
 				</div>
@@ -42,16 +50,31 @@ export const Footer = () => {
 						</li>
 					</ul>
 				</div>
-				<div className="w  text-slate-300 mb-14 md:w-[95%] lg:w-[10%]">
+				<div className="w-full  text-slate-300 mb-2 md:w-[95%] lg:w-[10%]">
 					<p className="mb-5">About Us</p>
 					<p className="mb-5">Jobs</p>
 					<p className="mb-5">Press</p>
 					<p className="mb-5">Blog</p>
 				</div>
-				<div className=" text-slate-300">
+				<div className="w-full md:w-[95%] lg:w-[10%] text-slate-300">
 					<p className="mb-5">Contact Us</p>
 					<p className="mb-5">Terms</p>
 					<p className="mb-5">Privacy</p>
+				</div>
+
+				<div className="w-full lg:w-[11%] mt-20 text-white flex justify-evenly items-center lg:justify-between lg:items-start lg:mt-0 lg:ml-5">
+					<FontAwesomeIcon
+						icon={faFacebook}
+						className="w-4 h-4 rounded-full outline outline-offset-4 outline-1 p-2 hover:text-cyan-300 cursor-pointer"
+					/>
+					<FontAwesomeIcon
+						icon={faTwitter}
+						className="w-4 h-4 rounded-full outline outline-offset-4 outline-1 p-2 hover:text-cyan-300 cursor-pointer"
+					/>
+					<FontAwesomeIcon
+						icon={faInstagram}
+						className="w-4 h-4 rounded-full outline outline-offset-4 outline-1 p-2 hover:text-cyan-300 cursor-pointer"
+					/>
 				</div>
 			</footer>
 		</>
