@@ -14,11 +14,15 @@ import phone from "../assets/images/icon-phone.svg";
 export const Footer = () => {
 	return (
 		<>
-			<footer className="w-screen h-auto pt-80 pb-52 pl-8 flex flex-wrap bg-slate-900 ">
+			<footer className="w-screen h-auto pt-80 pb-48 pl-8 flex flex-wrap bg-slate-900 ">
 				<div className="w-full mb-9 bg-slate-900">
-					<img src={logo} alt="Fylo's icon logo" />
+					<img
+						className="lg:ml-14"
+						src={logo}
+						alt="Fylo's icon logo"
+					/>
 				</div>
-				<div className=" flex pr-32 lg:w-[30%] mr-20">
+				<div className="lg:ml-14 flex pr-32 lg:w-[30%] mr-20">
 					<img
 						className="w-4 h-4 mr-5"
 						src={location}
