@@ -24,7 +24,13 @@ export const Main = () => {
 					Get Started
 				</button>
 			</div>
-			<div className="w-full h-96 bg-curvyMobile lg:bg-curvyDesktop  bg-no-repeat bg-right-top  bg-cover absolute right-0 -bottom-0 z-10 " />
+			<div className="w-screen h-auto absolute right-0 bottom-0 z-10">
+				<img
+					className="w-full bg-no-repeat bg-right-top  bg-cover"
+					src={curvy}
+					alt="curvy shape background"
+				/>
+			</div>
 		</main>
 	);
 };
