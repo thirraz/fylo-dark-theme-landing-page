@@ -5,7 +5,11 @@ export const Main = () => {
 	return (
 		<main className="w-screen h-auto md:h-auto cover flex justify-center items-center relative overflow-x-hidden">
 			<div className="flex flex-col w-full h-auto justify-center items-center">
-				<img className="max-w-[80%] z-20" src={imageIntro} alt="" />
+				<img
+					className="max-w-[80%] z-20"
+					src={imageIntro}
+					alt="intro illustration"
+				/>
 				<h1 className=" font-Raleway text-2xl text-white mt-8 z-20 px-28 lg:w-[50%] font-bold text-center text-[2rem]">
 					All your files in one secure location, accessible
 					anywhere
