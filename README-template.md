@@ -12,8 +12,6 @@ This is a solution to the [Fylo dark theme landing page challenge on Frontend Me
      -    [Built with](#built-with)
 -    [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -25,7 +23,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Desktop Screenshot](./desktop.png)
+![Mobile Screenshot](./mobile.png)
 
 ### Links
 
