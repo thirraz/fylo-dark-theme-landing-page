@@ -8,7 +8,7 @@ import { OpinionCards } from "./components/OpinionCards";
 
 function App() {
 	return (
-		<div className="bg-slate-800 w-auto h-auto overflow-x-hidden">
+		<div className="bg-bgColor w-auto h-auto overflow-x-hidden">
 			<Navbar />
 			<Main />
 			<Benefits />

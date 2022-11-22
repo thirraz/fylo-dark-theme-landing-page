@@ -17,6 +17,7 @@ module.exports = {
 					"url('./src/assets/images/illustration-intro.png')",
 			},
 			colors: {
+				bgColor: "#1C2230",
 				veryDarkBlue: "#181F2B",
 				grayBlue: "#21293C",
 				cta: "#1B2330",

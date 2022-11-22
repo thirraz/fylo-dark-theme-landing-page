@@ -19,7 +19,7 @@ export const Cta = () => {
 	console.log(form);
 
 	return (
-		<div className="w-90pc lg:w-70pc h-96 absolute -bottom-48 rounded-2xl px-10 bg-cta flex flex-col items-center justify-around lg:justify-evenly lg:px-14">
+		<div className="w-90pc lg:w-70pc h-96 absolute -bottom-48 rounded-2xl px-10 bg-cta flex flex-col items-center justify-around lg:justify-evenly lg:px-14 shadow-2xl">
 			<h2 className=" text-white text-xl lg:text-4xl font-bold font-Raleway">
 				Get early access today
 			</h2>
